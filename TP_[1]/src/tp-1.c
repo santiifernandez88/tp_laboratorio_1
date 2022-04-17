@@ -123,7 +123,6 @@ int main(void) {
 					printf("Confirma salida?, ingrese: (S/N)\n");
 					fflush(stdin);
 					scanf("%c",&flagSalida);
-					flagSalida = toupper(flagSalida);
 					system("pause");
 				}while(flagSalida!='N' && flagSalida!='S');
 				break;
